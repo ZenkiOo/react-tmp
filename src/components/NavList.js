@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../css/some-list.css";
+
 const NavLink = (item) => (item.link === "/" ? "Home" : item.link);
 
 const NavList = (props) => {
